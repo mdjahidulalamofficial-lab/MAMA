@@ -1,0 +1,457 @@
+2025-04-15 16:48:32,100 - ImageGeneration - CRITICAL - HuggingFaceAPIKey not found in .env file
+2025-04-15 16:53:00,833 - ImageGeneration - INFO - Starting image generation service
+2025-04-15 16:53:14,839 - ImageGeneration - INFO - Received image generation request for prompt: beautiful sunset over mountains
+2025-04-15 16:53:14,839 - ImageGeneration - INFO - Generating images for prompt: beautiful sunset over mountains
+2025-04-15 16:53:14,849 - ImageGeneration - INFO - Creating image generation task 1 with seed 162786
+2025-04-15 16:53:14,849 - ImageGeneration - INFO - Creating image generation task 2 with seed 243351
+2025-04-15 16:53:14,849 - ImageGeneration - INFO - Creating image generation task 3 with seed 377687
+2025-04-15 16:53:14,850 - ImageGeneration - INFO - Creating image generation task 4 with seed 317480
+2025-04-15 16:53:15,252 - ImageGeneration - ERROR - API request failed: 401 Client Error: Unauthorized for url: https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0
+2025-04-15 16:53:15,253 - ImageGeneration - ERROR - API request failed: 401 Client Error: Unauthorized for url: https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0
+2025-04-15 16:53:15,254 - ImageGeneration - ERROR - API request failed: 401 Client Error: Unauthorized for url: https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0
+2025-04-15 16:53:15,256 - ImageGeneration - ERROR - Error generating images: 401 Client Error: Unauthorized for url: https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0
+2025-04-15 16:53:15,282 - ImageGeneration - ERROR - Failed to generate images: 401 Client Error: Unauthorized for url: https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0
+2025-04-15 16:53:15,283 - ImageGeneration - INFO - Updated status file to False
+2025-04-15 16:53:15,283 - ImageGeneration - ERROR - Image generation failed
+2025-04-15 17:03:32,114 - ImageGeneration - INFO - Starting image generation service
+2025-04-15 17:03:32,115 - ImageGeneration - INFO - Received image generation request for prompt: beautiful sunset over mountains
+2025-04-15 17:03:32,115 - ImageGeneration - INFO - Generating images for prompt: beautiful sunset over mountains
+2025-04-15 17:03:32,119 - ImageGeneration - INFO - Creating image generation task 1 with seed 194870
+2025-04-15 17:03:32,119 - ImageGeneration - INFO - Creating image generation task 2 with seed 799966
+2025-04-15 17:03:32,119 - ImageGeneration - INFO - Creating image generation task 3 with seed 673309
+2025-04-15 17:03:32,119 - ImageGeneration - INFO - Creating image generation task 4 with seed 827927
+2025-04-15 17:03:32,120 - ImageGeneration - INFO - Mock API call with payload: {'inputs': 'beautiful sunset over mountains, quality=4K, sharpness=maximum, Ultra High details, high resolution, seed=194870'}
+2025-04-15 17:03:32,121 - ImageGeneration - ERROR - Mock API request failed: name 're' is not defined
+2025-04-15 17:03:32,121 - ImageGeneration - INFO - Mock API call with payload: {'inputs': 'beautiful sunset over mountains, quality=4K, sharpness=maximum, Ultra High details, high resolution, seed=799966'}
+2025-04-15 17:03:32,122 - ImageGeneration - ERROR - Mock API request failed: name 're' is not defined
+2025-04-15 17:03:32,122 - ImageGeneration - INFO - Mock API call with payload: {'inputs': 'beautiful sunset over mountains, quality=4K, sharpness=maximum, Ultra High details, high resolution, seed=673309'}
+2025-04-15 17:03:32,122 - ImageGeneration - ERROR - Mock API request failed: name 're' is not defined
+2025-04-15 17:03:32,122 - ImageGeneration - INFO - Mock API call with payload: {'inputs': 'beautiful sunset over mountains, quality=4K, sharpness=maximum, Ultra High details, high resolution, seed=827927'}
+2025-04-15 17:03:32,123 - ImageGeneration - ERROR - Mock API request failed: name 're' is not defined
+2025-04-15 17:03:32,123 - ImageGeneration - ERROR - Error generating images: name 're' is not defined
+2025-04-15 17:03:32,124 - ImageGeneration - ERROR - Failed to generate images: name 're' is not defined
+2025-04-15 17:03:32,125 - ImageGeneration - INFO - Updated status file to False
+2025-04-15 17:03:32,125 - ImageGeneration - ERROR - Image generation failed
+2025-04-15 17:05:22,038 - ImageGeneration - INFO - Starting image generation service
+2025-04-15 17:05:22,039 - ImageGeneration - INFO - Received image generation request for prompt: beautiful sunset over mountains
+2025-04-15 17:05:22,040 - ImageGeneration - INFO - Generating images for prompt: beautiful sunset over mountains
+2025-04-15 17:05:22,041 - ImageGeneration - INFO - Creating image generation task 1 with seed 793633
+2025-04-15 17:05:22,041 - ImageGeneration - INFO - Creating image generation task 2 with seed 847320
+2025-04-15 17:05:22,042 - ImageGeneration - INFO - Creating image generation task 3 with seed 158735
+2025-04-15 17:05:22,042 - ImageGeneration - INFO - Creating image generation task 4 with seed 642853
+2025-04-15 17:05:22,042 - ImageGeneration - INFO - Mock API call with payload: {'inputs': 'beautiful sunset over mountains, quality=4K, sharpness=maximum, Ultra High details, high resolution, seed=793633'}
+2025-04-15 17:05:22,746 - ImageGeneration - INFO - Generated mock image with seed 773688
+2025-04-15 17:05:22,746 - ImageGeneration - INFO - Mock API call with payload: {'inputs': 'beautiful sunset over mountains, quality=4K, sharpness=maximum, Ultra High details, high resolution, seed=847320'}
+2025-04-15 17:05:22,889 - ImageGeneration - INFO - Generated mock image with seed 109923
+2025-04-15 17:05:22,890 - ImageGeneration - INFO - Mock API call with payload: {'inputs': 'beautiful sunset over mountains, quality=4K, sharpness=maximum, Ultra High details, high resolution, seed=158735'}
+2025-04-15 17:05:23,009 - ImageGeneration - INFO - Generated mock image with seed 117629
+2025-04-15 17:05:23,009 - ImageGeneration - INFO - Mock API call with payload: {'inputs': 'beautiful sunset over mountains, quality=4K, sharpness=maximum, Ultra High details, high resolution, seed=642853'}
+2025-04-15 17:05:23,153 - ImageGeneration - INFO - Generated mock image with seed 836404
+2025-04-15 17:05:23,160 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\beautiful_sunset_over_mountains1.jpg
+2025-04-15 17:05:23,161 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\beautiful_sunset_over_mountains2.jpg
+2025-04-15 17:05:23,162 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\beautiful_sunset_over_mountains3.jpg
+2025-04-15 17:05:23,163 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\beautiful_sunset_over_mountains4.jpg
+2025-04-15 17:05:23,176 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\beautiful_sunset_over_mountains1.jpg
+2025-04-15 17:05:24,227 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\beautiful_sunset_over_mountains2.jpg
+2025-04-15 17:05:25,400 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\beautiful_sunset_over_mountains3.jpg
+2025-04-15 17:05:26,885 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\beautiful_sunset_over_mountains4.jpg
+2025-04-15 17:05:28,334 - ImageGeneration - INFO - Updated status file to False
+2025-04-15 17:05:28,337 - ImageGeneration - INFO - Image generation completed successfully
+2025-04-15 17:10:04,496 - ImageGeneration - INFO - Starting image generation service
+2025-04-15 17:10:04,497 - ImageGeneration - INFO - Received image generation request for prompt: beautiful sunset over mountains
+2025-04-15 17:10:04,497 - ImageGeneration - INFO - Generating images for prompt: beautiful sunset over mountains
+2025-04-15 17:10:04,501 - ImageGeneration - INFO - Creating image generation task 1 with seed 587142
+2025-04-15 17:10:04,501 - ImageGeneration - INFO - Creating image generation task 2 with seed 119690
+2025-04-15 17:10:04,501 - ImageGeneration - INFO - Creating image generation task 3 with seed 473080
+2025-04-15 17:10:04,501 - ImageGeneration - INFO - Creating image generation task 4 with seed 942725
+2025-04-15 17:10:04,502 - ImageGeneration - INFO - Sending API request with prompt: beautiful sunset over mountains, quality=4K, sharp...
+2025-04-15 17:10:04,505 - ImageGeneration - INFO - Sending API request with prompt: beautiful sunset over mountains, quality=4K, sharp...
+2025-04-15 17:10:04,506 - ImageGeneration - INFO - Sending API request with prompt: beautiful sunset over mountains, quality=4K, sharp...
+2025-04-15 17:10:04,507 - ImageGeneration - INFO - Sending API request with prompt: beautiful sunset over mountains, quality=4K, sharp...
+2025-04-15 17:10:18,163 - ImageGeneration - INFO - API request successful, received 63400 bytes
+2025-04-15 17:10:26,394 - ImageGeneration - INFO - API request successful, received 110132 bytes
+2025-04-15 17:10:27,728 - ImageGeneration - INFO - API request successful, received 97326 bytes
+2025-04-15 17:10:39,579 - ImageGeneration - INFO - API request successful, received 117260 bytes
+2025-04-15 17:10:39,580 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\beautiful_sunset_over_mountains1.jpg
+2025-04-15 17:10:39,582 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\beautiful_sunset_over_mountains2.jpg
+2025-04-15 17:10:39,582 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\beautiful_sunset_over_mountains3.jpg
+2025-04-15 17:10:39,583 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\beautiful_sunset_over_mountains4.jpg
+2025-04-15 17:10:39,623 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\beautiful_sunset_over_mountains1.jpg
+2025-04-15 17:10:40,773 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\beautiful_sunset_over_mountains2.jpg
+2025-04-15 17:10:41,992 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\beautiful_sunset_over_mountains3.jpg
+2025-04-15 17:10:43,778 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\beautiful_sunset_over_mountains4.jpg
+2025-04-15 17:10:45,736 - ImageGeneration - INFO - Updated status file to False
+2025-04-15 17:10:45,738 - ImageGeneration - INFO - Image generation completed successfully
+2025-04-15 17:12:18,631 - ImageGeneration - INFO - Starting image generation service
+2025-04-15 17:16:30,661 - ImageGeneration - INFO - Generating images for prompt: futuristic city with flying cars
+2025-04-15 17:16:30,662 - ImageGeneration - INFO - Generating images for prompt: futuristic city with flying cars
+2025-04-15 17:16:30,666 - ImageGeneration - INFO - Creating image generation task 1 with seed 45501
+2025-04-15 17:16:30,666 - ImageGeneration - INFO - Creating image generation task 2 with seed 335021
+2025-04-15 17:16:30,666 - ImageGeneration - INFO - Creating image generation task 3 with seed 239185
+2025-04-15 17:16:30,667 - ImageGeneration - INFO - Creating image generation task 4 with seed 351565
+2025-04-15 17:16:30,668 - ImageGeneration - INFO - Sending API request with prompt: futuristic city with flying cars, quality=4K, shar...
+2025-04-15 17:16:30,671 - ImageGeneration - INFO - Sending API request with prompt: futuristic city with flying cars, quality=4K, shar...
+2025-04-15 17:16:30,672 - ImageGeneration - INFO - Sending API request with prompt: futuristic city with flying cars, quality=4K, shar...
+2025-04-15 17:16:30,672 - ImageGeneration - INFO - Sending API request with prompt: futuristic city with flying cars, quality=4K, shar...
+2025-04-15 17:16:49,570 - ImageGeneration - INFO - API request successful, received 143711 bytes
+2025-04-15 17:16:51,041 - ImageGeneration - INFO - API request successful, received 137409 bytes
+2025-04-15 17:17:02,336 - ImageGeneration - INFO - API request successful, received 151398 bytes
+2025-04-15 17:17:14,109 - ImageGeneration - INFO - API request successful, received 148575 bytes
+2025-04-15 17:17:14,111 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\futuristic_city_with_flying_cars1.jpg
+2025-04-15 17:17:14,112 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\futuristic_city_with_flying_cars2.jpg
+2025-04-15 17:17:14,113 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\futuristic_city_with_flying_cars3.jpg
+2025-04-15 17:17:14,114 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\futuristic_city_with_flying_cars4.jpg
+2025-04-15 17:17:14,166 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\futuristic_city_with_flying_cars1.jpg
+2025-04-15 17:17:15,342 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\futuristic_city_with_flying_cars2.jpg
+2025-04-15 17:17:16,528 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\futuristic_city_with_flying_cars3.jpg
+2025-04-15 17:17:17,761 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\futuristic_city_with_flying_cars4.jpg
+2025-04-15 17:17:19,233 - ImageGeneration - INFO - Image generation completed successfully
+2025-04-15 17:18:12,692 - ImageGeneration - INFO - Generating images for prompt: magical forest
+2025-04-15 17:18:12,693 - ImageGeneration - INFO - Generating images for prompt: magical forest
+2025-04-15 17:18:12,694 - ImageGeneration - INFO - Creating image generation task 1 with seed 479204
+2025-04-15 17:18:12,694 - ImageGeneration - INFO - Creating image generation task 2 with seed 43827
+2025-04-15 17:18:12,694 - ImageGeneration - INFO - Creating image generation task 3 with seed 787299
+2025-04-15 17:18:12,694 - ImageGeneration - INFO - Creating image generation task 4 with seed 64714
+2025-04-15 17:18:12,694 - ImageGeneration - INFO - Sending API request with prompt: magical forest, quality=4K, sharpness=maximum, Ult...
+2025-04-15 17:18:12,697 - ImageGeneration - INFO - Sending API request with prompt: magical forest, quality=4K, sharpness=maximum, Ult...
+2025-04-15 17:18:12,698 - ImageGeneration - INFO - Sending API request with prompt: magical forest, quality=4K, sharpness=maximum, Ult...
+2025-04-15 17:18:12,699 - ImageGeneration - INFO - Sending API request with prompt: magical forest, quality=4K, sharpness=maximum, Ult...
+2025-04-15 17:18:33,335 - ImageGeneration - INFO - API request successful, received 126140 bytes
+2025-04-15 17:18:40,788 - ImageGeneration - INFO - API request successful, received 127000 bytes
+2025-04-15 17:18:44,405 - ImageGeneration - INFO - API request successful, received 148807 bytes
+2025-04-15 17:18:54,970 - ImageGeneration - INFO - API request successful, received 128405 bytes
+2025-04-15 17:18:54,972 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\magical_forest1.jpg
+2025-04-15 17:18:54,973 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\magical_forest2.jpg
+2025-04-15 17:18:54,974 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\magical_forest3.jpg
+2025-04-15 17:18:54,975 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\magical_forest4.jpg
+2025-04-15 17:18:55,016 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\magical_forest1.jpg
+2025-04-15 17:18:56,166 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\magical_forest2.jpg
+2025-04-15 17:18:57,593 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\magical_forest3.jpg
+2025-04-15 17:18:58,926 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\magical_forest4.jpg
+2025-04-15 17:19:00,362 - ImageGeneration - INFO - Image generation completed successfully
+2025-04-15 20:33:59,480 - ImageGeneration - INFO - Generating images for prompt: a futuristic bedroom interior 
+2025-04-15 20:33:59,482 - ImageGeneration - INFO - Generating images for prompt: a futuristic bedroom interior
+2025-04-15 20:33:59,488 - ImageGeneration - INFO - Creating image generation task 1 with seed 510413
+2025-04-15 20:33:59,488 - ImageGeneration - INFO - Creating image generation task 2 with seed 837505
+2025-04-15 20:33:59,489 - ImageGeneration - INFO - Creating image generation task 3 with seed 626357
+2025-04-15 20:33:59,489 - ImageGeneration - INFO - Creating image generation task 4 with seed 91139
+2025-04-15 20:33:59,491 - ImageGeneration - INFO - Sending API request with prompt: a futuristic bedroom interior, quality=4K, sharpne...
+2025-04-15 20:33:59,497 - ImageGeneration - INFO - Sending API request with prompt: a futuristic bedroom interior, quality=4K, sharpne...
+2025-04-15 20:33:59,498 - ImageGeneration - INFO - Sending API request with prompt: a futuristic bedroom interior, quality=4K, sharpne...
+2025-04-15 20:33:59,500 - ImageGeneration - INFO - Sending API request with prompt: a futuristic bedroom interior, quality=4K, sharpne...
+2025-04-15 20:34:11,227 - ImageGeneration - INFO - API request successful, received 88016 bytes
+2025-04-15 20:34:22,214 - ImageGeneration - INFO - API request successful, received 83322 bytes
+2025-04-15 20:34:37,623 - ImageGeneration - INFO - API request successful, received 75603 bytes
+2025-04-15 20:34:45,947 - ImageGeneration - INFO - API request successful, received 86105 bytes
+2025-04-15 20:34:45,955 - ImageGeneration - INFO - Saved image to s:\mama\Backend\..\Data\a_futuristic_bedroom_interior1.jpg
+2025-04-15 20:34:45,957 - ImageGeneration - INFO - Saved image to s:\mama\Backend\..\Data\a_futuristic_bedroom_interior2.jpg
+2025-04-15 20:34:45,960 - ImageGeneration - INFO - Saved image to s:\mama\Backend\..\Data\a_futuristic_bedroom_interior3.jpg
+2025-04-15 20:34:45,961 - ImageGeneration - INFO - Saved image to s:\mama\Backend\..\Data\a_futuristic_bedroom_interior4.jpg
+2025-04-15 20:34:46,033 - ImageGeneration - INFO - Opening image: s:\mama\Backend\..\Data\a_futuristic_bedroom_interior1.jpg
+2025-04-15 20:34:47,145 - ImageGeneration - INFO - Opening image: s:\mama\Backend\..\Data\a_futuristic_bedroom_interior2.jpg
+2025-04-15 20:34:48,279 - ImageGeneration - INFO - Opening image: s:\mama\Backend\..\Data\a_futuristic_bedroom_interior3.jpg
+2025-04-15 20:34:49,437 - ImageGeneration - INFO - Opening image: s:\mama\Backend\..\Data\a_futuristic_bedroom_interior4.jpg
+2025-04-15 20:34:50,551 - ImageGeneration - INFO - Image generation completed successfully
+2025-04-15 20:37:14,450 - ImageGeneration - INFO - Generating images for prompt: micky mouse planting a tree
+2025-04-15 20:37:14,451 - ImageGeneration - INFO - Generating images for prompt: micky mouse planting a tree
+2025-04-15 20:37:14,453 - ImageGeneration - INFO - Creating image generation task 1 with seed 632679
+2025-04-15 20:37:14,453 - ImageGeneration - INFO - Creating image generation task 2 with seed 972809
+2025-04-15 20:37:14,454 - ImageGeneration - INFO - Creating image generation task 3 with seed 91198
+2025-04-15 20:37:14,454 - ImageGeneration - INFO - Creating image generation task 4 with seed 232500
+2025-04-15 20:37:14,454 - ImageGeneration - INFO - Sending API request with prompt: micky mouse planting a tree, quality=4K, sharpness...
+2025-04-15 20:37:14,455 - ImageGeneration - INFO - Sending API request with prompt: micky mouse planting a tree, quality=4K, sharpness...
+2025-04-15 20:37:14,456 - ImageGeneration - INFO - Sending API request with prompt: micky mouse planting a tree, quality=4K, sharpness...
+2025-04-15 20:37:14,458 - ImageGeneration - INFO - Sending API request with prompt: micky mouse planting a tree, quality=4K, sharpness...
+2025-04-15 20:37:26,563 - ImageGeneration - INFO - API request successful, received 107056 bytes
+2025-04-15 20:37:28,424 - ImageGeneration - INFO - API request successful, received 123030 bytes
+2025-04-15 20:37:33,376 - ImageGeneration - INFO - API request successful, received 114581 bytes
+2025-04-15 20:37:41,721 - ImageGeneration - INFO - API request successful, received 112339 bytes
+2025-04-15 20:37:41,724 - ImageGeneration - INFO - Saved image to s:\mama\Backend\..\Data\micky_mouse_planting_a_tree1.jpg
+2025-04-15 20:37:41,733 - ImageGeneration - INFO - Saved image to s:\mama\Backend\..\Data\micky_mouse_planting_a_tree2.jpg
+2025-04-15 20:37:41,735 - ImageGeneration - INFO - Saved image to s:\mama\Backend\..\Data\micky_mouse_planting_a_tree3.jpg
+2025-04-15 20:37:41,737 - ImageGeneration - INFO - Saved image to s:\mama\Backend\..\Data\micky_mouse_planting_a_tree4.jpg
+2025-04-15 20:37:41,763 - ImageGeneration - INFO - Opening image: s:\mama\Backend\..\Data\micky_mouse_planting_a_tree1.jpg
+2025-04-15 20:37:42,898 - ImageGeneration - INFO - Opening image: s:\mama\Backend\..\Data\micky_mouse_planting_a_tree2.jpg
+2025-04-15 20:37:44,052 - ImageGeneration - INFO - Opening image: s:\mama\Backend\..\Data\micky_mouse_planting_a_tree3.jpg
+2025-04-15 20:37:45,235 - ImageGeneration - INFO - Opening image: s:\mama\Backend\..\Data\micky_mouse_planting_a_tree4.jpg
+2025-04-15 20:37:46,402 - ImageGeneration - INFO - Image generation completed successfully
+2025-04-15 23:02:36,331 - stability_sdk.client - INFO - Opening channel to grpc.stability.ai:443
+2025-04-15 23:02:36,375 - stability_sdk.client - INFO - Channel opened to grpc.stability.ai:443
+2025-04-15 23:02:36,375 - ImageGeneration - INFO - Successfully initialized Stability API client
+2025-04-15 23:02:48,591 - stability_sdk.client - INFO - Opening channel to grpc.stability.ai:443
+2025-04-15 23:02:48,605 - stability_sdk.client - INFO - Channel opened to grpc.stability.ai:443
+2025-04-15 23:02:48,605 - ImageGeneration - INFO - Successfully initialized Stability API client
+2025-04-15 23:02:48,607 - ImageGeneration - INFO - Generating images for prompt: minimalist bedroom with black walls and golden lighting
+2025-04-15 23:02:48,607 - ImageGeneration - INFO - Generating images for prompt: minimalist bedroom with black walls and golden lighting
+2025-04-15 23:02:48,608 - ImageGeneration - INFO - Creating image generation task 1 with seed 593458
+2025-04-15 23:02:48,608 - ImageGeneration - INFO - Creating image generation task 2 with seed 888897
+2025-04-15 23:02:48,608 - ImageGeneration - INFO - Creating image generation task 3 with seed 92040
+2025-04-15 23:02:48,608 - ImageGeneration - INFO - Creating image generation task 4 with seed 652540
+2025-04-15 23:02:48,608 - ImageGeneration - INFO - Sending Stability API request with prompt: minimalist bedroom with black walls and golden lig...
+2025-04-15 23:02:48,625 - ImageGeneration - INFO - Sending Stability API request with prompt: minimalist bedroom with black walls and golden lig...
+2025-04-15 23:02:48,625 - ImageGeneration - INFO - Sending Stability API request with prompt: minimalist bedroom with black walls and golden lig...
+2025-04-15 23:02:48,626 - ImageGeneration - INFO - Sending Stability API request with prompt: minimalist bedroom with black walls and golden lig...
+2025-04-15 23:02:48,627 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:02:50,045 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.NOT_FOUND
+	details = "The specified engine (ID stable-diffusion-xl-beta-v2-2-2) was not found."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:172.64.153.32:443 {created_time:"2025-04-15T17:02:50.0115655+00:00", grpc_status:5, grpc_message:"The specified engine (ID stable-diffusion-xl-beta-v2-2-2) was not found."}"
+>
+2025-04-15 23:02:50,045 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:02:50,153 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:02:50,154 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:02:50,516 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.NOT_FOUND
+	details = "The specified engine (ID stable-diffusion-xl-beta-v2-2-2) was not found."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:172.64.153.32:443 {created_time:"2025-04-15T17:02:50.4675122+00:00", grpc_status:5, grpc_message:"The specified engine (ID stable-diffusion-xl-beta-v2-2-2) was not found."}"
+>
+2025-04-15 23:02:50,517 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:02:50,525 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:02:50,526 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:02:50,893 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.NOT_FOUND
+	details = "The specified engine (ID stable-diffusion-xl-beta-v2-2-2) was not found."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:172.64.153.32:443 {created_time:"2025-04-15T17:02:50.837627+00:00", grpc_status:5, grpc_message:"The specified engine (ID stable-diffusion-xl-beta-v2-2-2) was not found."}"
+>
+2025-04-15 23:02:50,893 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:02:50,901 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:02:50,902 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:02:51,269 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.NOT_FOUND
+	details = "The specified engine (ID stable-diffusion-xl-beta-v2-2-2) was not found."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:172.64.153.32:443 {created_time:"2025-04-15T17:02:51.2315476+00:00", grpc_status:5, grpc_message:"The specified engine (ID stable-diffusion-xl-beta-v2-2-2) was not found."}"
+>
+2025-04-15 23:02:51,270 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:02:51,277 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:02:51,278 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting1.jpg
+2025-04-15 23:02:51,280 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting2.jpg
+2025-04-15 23:02:51,280 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting3.jpg
+2025-04-15 23:02:51,281 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting4.jpg
+2025-04-15 23:02:51,291 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting1.jpg
+2025-04-15 23:02:52,313 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting2.jpg
+2025-04-15 23:02:53,390 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting3.jpg
+2025-04-15 23:02:54,718 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting4.jpg
+2025-04-15 23:02:55,821 - ImageGeneration - INFO - Image generation completed successfully
+2025-04-15 23:03:27,536 - stability_sdk.client - INFO - Opening channel to grpc.stability.ai:443
+2025-04-15 23:03:27,586 - stability_sdk.client - INFO - Channel opened to grpc.stability.ai:443
+2025-04-15 23:03:27,586 - ImageGeneration - INFO - Successfully initialized Stability API client
+2025-04-15 23:03:27,588 - ImageGeneration - INFO - Generating images for prompt: minimalist bedroom with black walls and golden lighting
+2025-04-15 23:03:27,588 - ImageGeneration - INFO - Generating images for prompt: minimalist bedroom with black walls and golden lighting
+2025-04-15 23:03:27,591 - ImageGeneration - INFO - Creating image generation task 1 with seed 435043
+2025-04-15 23:03:27,591 - ImageGeneration - INFO - Creating image generation task 2 with seed 368857
+2025-04-15 23:03:27,591 - ImageGeneration - INFO - Creating image generation task 3 with seed 406377
+2025-04-15 23:03:27,591 - ImageGeneration - INFO - Creating image generation task 4 with seed 246990
+2025-04-15 23:03:27,592 - ImageGeneration - INFO - Sending Stability API request with prompt: minimalist bedroom with black walls and golden lig...
+2025-04-15 23:03:27,594 - ImageGeneration - INFO - Sending Stability API request with prompt: minimalist bedroom with black walls and golden lig...
+2025-04-15 23:03:27,595 - ImageGeneration - INFO - Sending Stability API request with prompt: minimalist bedroom with black walls and golden lig...
+2025-04-15 23:03:27,595 - ImageGeneration - INFO - Sending Stability API request with prompt: minimalist bedroom with black walls and golden lig...
+2025-04-15 23:03:27,596 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:03:32,660 - stability_sdk.client - INFO - Got answer 8cb98267-345c-49e9-9f67-3e805dcde75d with artifact types ['ARTIFACT_IMAGE', 'ARTIFACT_CLASSIFICATIONS'] in 5.06s
+2025-04-15 23:03:32,661 - ImageGeneration - INFO - Image received from Stability API.
+2025-04-15 23:03:32,661 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:03:35,384 - stability_sdk.client - INFO - Got answer 4f73609b-02c7-475e-ab98-9ea7014472a5 with artifact types ['ARTIFACT_IMAGE', 'ARTIFACT_CLASSIFICATIONS'] in 2.72s
+2025-04-15 23:03:35,385 - ImageGeneration - INFO - Image received from Stability API.
+2025-04-15 23:03:35,406 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:03:38,743 - stability_sdk.client - INFO - Got answer efc53167-1861-4b10-92b0-7471f262ae54 with artifact types ['ARTIFACT_IMAGE', 'ARTIFACT_CLASSIFICATIONS'] in 3.34s
+2025-04-15 23:03:38,743 - ImageGeneration - INFO - Image received from Stability API.
+2025-04-15 23:03:38,755 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:03:41,579 - stability_sdk.client - INFO - Got answer aeef416e-6cc5-407b-adbf-2f5585975683 with artifact types ['ARTIFACT_IMAGE', 'ARTIFACT_CLASSIFICATIONS'] in 2.82s
+2025-04-15 23:03:41,581 - ImageGeneration - INFO - Image received from Stability API.
+2025-04-15 23:03:41,592 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting1.jpg
+2025-04-15 23:03:41,594 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting2.jpg
+2025-04-15 23:03:41,597 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting3.jpg
+2025-04-15 23:03:41,598 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting4.jpg
+2025-04-15 23:03:41,649 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting1.jpg
+2025-04-15 23:03:42,724 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting2.jpg
+2025-04-15 23:03:43,946 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting3.jpg
+2025-04-15 23:03:45,237 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\minimalist_bedroom_with_black_walls_and_golden_lighting4.jpg
+2025-04-15 23:03:46,486 - ImageGeneration - INFO - Image generation completed successfully
+2025-04-15 23:06:15,279 - stability_sdk.client - INFO - Opening channel to grpc.stability.ai:443
+2025-04-15 23:06:15,298 - stability_sdk.client - INFO - Channel opened to grpc.stability.ai:443
+2025-04-15 23:06:15,298 - ImageGeneration - INFO - Successfully initialized Stability API client
+2025-04-15 23:06:55,953 - stability_sdk.client - INFO - Opening channel to grpc.stability.ai:443
+2025-04-15 23:06:55,970 - stability_sdk.client - INFO - Channel opened to grpc.stability.ai:443
+2025-04-15 23:06:55,970 - ImageGeneration - INFO - Successfully initialized Stability API client
+2025-04-15 23:06:55,972 - ImageGeneration - INFO - Generating images for prompt: futuristic bedroom with golden lighting
+2025-04-15 23:06:55,972 - ImageGeneration - INFO - Generating images for prompt: futuristic bedroom with golden lighting
+2025-04-15 23:06:55,973 - ImageGeneration - INFO - Creating image generation task 1 with seed 676843
+2025-04-15 23:06:55,973 - ImageGeneration - INFO - Creating image generation task 2 with seed 889475
+2025-04-15 23:06:55,973 - ImageGeneration - INFO - Creating image generation task 3 with seed 448855
+2025-04-15 23:06:55,973 - ImageGeneration - INFO - Creating image generation task 4 with seed 734758
+2025-04-15 23:06:55,974 - ImageGeneration - INFO - Sending Stability API request with prompt: futuristic bedroom with golden lighting...
+2025-04-15 23:06:55,976 - ImageGeneration - INFO - Sending Stability API request with prompt: futuristic bedroom with golden lighting...
+2025-04-15 23:06:55,977 - ImageGeneration - INFO - Sending Stability API request with prompt: futuristic bedroom with golden lighting...
+2025-04-15 23:06:55,977 - ImageGeneration - INFO - Sending Stability API request with prompt: futuristic bedroom with golden lighting...
+2025-04-15 23:06:55,978 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:06:57,118 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:172.64.153.32:443 {grpc_message:"Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance).", grpc_status:8, created_time:"2025-04-15T17:06:57.0744049+00:00"}"
+>
+2025-04-15 23:06:57,119 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:06:57,233 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:06:57,235 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:06:57,555 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:172.64.153.32:443 {created_time:"2025-04-15T17:06:57.5007613+00:00", grpc_status:8, grpc_message:"Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."}"
+>
+2025-04-15 23:06:57,556 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:06:57,564 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:06:57,564 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:06:57,876 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:172.64.153.32:443 {created_time:"2025-04-15T17:06:57.8265768+00:00", grpc_status:8, grpc_message:"Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."}"
+>
+2025-04-15 23:06:57,877 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:06:57,884 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:06:57,885 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:06:58,197 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:172.64.153.32:443 {grpc_message:"Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance).", grpc_status:8, created_time:"2025-04-15T17:06:58.1561019+00:00"}"
+>
+2025-04-15 23:06:58,197 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:06:58,204 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:06:58,205 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\futuristic_bedroom_with_golden_lighting1.jpg
+2025-04-15 23:06:58,205 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\futuristic_bedroom_with_golden_lighting2.jpg
+2025-04-15 23:06:58,206 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\futuristic_bedroom_with_golden_lighting3.jpg
+2025-04-15 23:06:58,207 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\futuristic_bedroom_with_golden_lighting4.jpg
+2025-04-15 23:06:58,217 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\futuristic_bedroom_with_golden_lighting1.jpg
+2025-04-15 23:06:59,256 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\futuristic_bedroom_with_golden_lighting2.jpg
+2025-04-15 23:07:00,318 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\futuristic_bedroom_with_golden_lighting3.jpg
+2025-04-15 23:07:01,390 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\futuristic_bedroom_with_golden_lighting4.jpg
+2025-04-15 23:07:02,440 - ImageGeneration - INFO - Image generation completed successfully
+2025-04-15 23:09:10,812 - stability_sdk.client - INFO - Opening channel to grpc.stability.ai:443
+2025-04-15 23:09:10,848 - stability_sdk.client - INFO - Channel opened to grpc.stability.ai:443
+2025-04-15 23:09:10,848 - ImageGeneration - INFO - Successfully initialized Stability API client
+2025-04-15 23:09:22,104 - ImageGeneration - ERROR - stability-sdk is not installed or not compatible with this Python version
+2025-04-15 23:09:22,104 - ImageGeneration - ERROR - Please install it with: py -3.10 -m pip install stability-sdk
+2025-04-15 23:09:22,104 - ImageGeneration - ERROR - This script must be run with Python 3.10: py -3.10 Backend\ImageGeneration.py
+2025-04-15 23:10:16,697 - ImageGeneration - ERROR - stability-sdk is not installed or not compatible with this Python version
+2025-04-15 23:10:16,698 - ImageGeneration - ERROR - Please install it with: py -3.10 -m pip install stability-sdk
+2025-04-15 23:10:16,698 - ImageGeneration - ERROR - This script must be run with Python 3.10: py -3.10 Backend/ImageGeneration.py
+2025-04-15 23:10:30,044 - stability_sdk.client - INFO - Opening channel to grpc.stability.ai:443
+2025-04-15 23:10:30,059 - stability_sdk.client - INFO - Channel opened to grpc.stability.ai:443
+2025-04-15 23:10:30,059 - ImageGeneration - INFO - Successfully initialized Stability API client
+2025-04-15 23:17:10,876 - stability_sdk.client - INFO - Opening channel to grpc.stability.ai:443
+2025-04-15 23:17:10,892 - stability_sdk.client - INFO - Channel opened to grpc.stability.ai:443
+2025-04-15 23:17:10,892 - ImageGeneration - INFO - Successfully initialized Stability API client
+2025-04-15 23:17:10,895 - ImageGeneration - INFO - Generating images for prompt: minimalist futuristic bedroom
+2025-04-15 23:17:10,896 - ImageGeneration - INFO - Generating images for prompt: minimalist futuristic bedroom
+2025-04-15 23:17:10,897 - ImageGeneration - INFO - Creating image generation task 1 with seed 873172
+2025-04-15 23:17:10,897 - ImageGeneration - INFO - Creating image generation task 2 with seed 775908
+2025-04-15 23:17:10,897 - ImageGeneration - INFO - Creating image generation task 3 with seed 277816
+2025-04-15 23:17:10,897 - ImageGeneration - INFO - Creating image generation task 4 with seed 341524
+2025-04-15 23:17:10,898 - ImageGeneration - INFO - Sending Stability API request with prompt: minimalist futuristic bedroom...
+2025-04-15 23:17:10,900 - ImageGeneration - INFO - Sending Stability API request with prompt: minimalist futuristic bedroom...
+2025-04-15 23:17:10,900 - ImageGeneration - INFO - Sending Stability API request with prompt: minimalist futuristic bedroom...
+2025-04-15 23:17:10,900 - ImageGeneration - INFO - Sending Stability API request with prompt: minimalist futuristic bedroom...
+2025-04-15 23:17:10,901 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:17:12,324 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:104.18.34.224:443 {created_time:"2025-04-15T17:17:12.2846934+00:00", grpc_status:8, grpc_message:"Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."}"
+>
+2025-04-15 23:17:12,324 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:17:12,386 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:17:12,386 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:17:12,698 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:104.18.34.224:443 {grpc_message:"Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance).", grpc_status:8, created_time:"2025-04-15T17:17:12.6555469+00:00"}"
+>
+2025-04-15 23:17:12,698 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:17:12,705 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:17:12,707 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:17:13,067 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:104.18.34.224:443 {grpc_message:"Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance).", grpc_status:8, created_time:"2025-04-15T17:17:13.0200053+00:00"}"
+>
+2025-04-15 23:17:13,068 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:17:13,075 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:17:13,075 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:17:13,384 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:104.18.34.224:443 {grpc_message:"Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance).", grpc_status:8, created_time:"2025-04-15T17:17:13.3437916+00:00"}"
+>
+2025-04-15 23:17:13,384 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:17:13,391 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:17:13,393 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\minimalist_futuristic_bedroom1.jpg
+2025-04-15 23:17:13,393 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\minimalist_futuristic_bedroom2.jpg
+2025-04-15 23:17:13,394 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\minimalist_futuristic_bedroom3.jpg
+2025-04-15 23:17:13,395 - ImageGeneration - INFO - Saved image to S:\mama\Backend\..\Data\minimalist_futuristic_bedroom4.jpg
+2025-04-15 23:17:13,404 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\minimalist_futuristic_bedroom1.jpg
+2025-04-15 23:17:14,458 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\minimalist_futuristic_bedroom2.jpg
+2025-04-15 23:17:15,622 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\minimalist_futuristic_bedroom3.jpg
+2025-04-15 23:17:16,663 - ImageGeneration - INFO - Opening image: S:\mama\Backend\..\Data\minimalist_futuristic_bedroom4.jpg
+2025-04-15 23:17:17,742 - ImageGeneration - INFO - Image generation completed successfully
+2025-04-15 23:28:54,503 - stability_sdk.client - INFO - Opening channel to grpc.stability.ai:443
+2025-04-15 23:28:54,537 - stability_sdk.client - INFO - Channel opened to grpc.stability.ai:443
+2025-04-15 23:28:54,537 - ImageGeneration - INFO - Successfully initialized Stability API client
+2025-04-15 23:29:07,062 - stability_sdk.client - INFO - Opening channel to grpc.stability.ai:443
+2025-04-15 23:29:07,077 - stability_sdk.client - INFO - Channel opened to grpc.stability.ai:443
+2025-04-15 23:29:07,077 - ImageGeneration - INFO - Successfully initialized Stability API client
+2025-04-15 23:29:20,270 - stability_sdk.client - INFO - Opening channel to grpc.stability.ai:443
+2025-04-15 23:29:20,286 - stability_sdk.client - INFO - Channel opened to grpc.stability.ai:443
+2025-04-15 23:29:20,287 - ImageGeneration - INFO - Successfully initialized Stability API client
+2025-04-15 23:36:43,529 - ImageGeneration - ERROR - stability-sdk is not installed or not compatible with this Python version
+2025-04-15 23:36:43,529 - ImageGeneration - ERROR - Please install it with: py -3.10 -m pip install stability-sdk
+2025-04-15 23:36:43,530 - ImageGeneration - ERROR - This script must be run with Python 3.10: py -3.10 Backend/ImageGeneration.py
+2025-04-15 23:38:38,245 - stability_sdk.client - INFO - Opening channel to grpc.stability.ai:443
+2025-04-15 23:38:38,266 - stability_sdk.client - INFO - Channel opened to grpc.stability.ai:443
+2025-04-15 23:38:38,266 - ImageGeneration - INFO - Successfully initialized Stability API client
+2025-04-15 23:40:00,426 - ImageGeneration - INFO - Generating images for prompt: generate futuristic city with neon light light n-1
+2025-04-15 23:40:00,427 - ImageGeneration - INFO - Generating images for prompt: generate futuristic city with neon light light n-1
+2025-04-15 23:40:00,435 - ImageGeneration - INFO - Creating image generation task 1 with seed 619622
+2025-04-15 23:40:00,436 - ImageGeneration - INFO - Creating image generation task 2 with seed 158969
+2025-04-15 23:40:00,436 - ImageGeneration - INFO - Creating image generation task 3 with seed 787142
+2025-04-15 23:40:00,437 - ImageGeneration - INFO - Creating image generation task 4 with seed 149565
+2025-04-15 23:40:00,438 - ImageGeneration - INFO - Sending Stability API text2img request with prompt: generate futuristic city with neon light light n-1...
+2025-04-15 23:40:00,442 - ImageGeneration - INFO - Sending Stability API text2img request with prompt: generate futuristic city with neon light light n-1...
+2025-04-15 23:40:00,443 - ImageGeneration - INFO - Sending Stability API text2img request with prompt: generate futuristic city with neon light light n-1...
+2025-04-15 23:40:00,443 - ImageGeneration - INFO - Sending Stability API text2img request with prompt: generate futuristic city with neon light light n-1...
+2025-04-15 23:40:00,444 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:40:01,798 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:104.18.34.224:443 {created_time:"2025-04-15T17:40:01.7316793+00:00", grpc_status:8, grpc_message:"Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."}"
+>
+2025-04-15 23:40:01,800 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:40:01,900 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:40:01,901 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:40:02,243 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:104.18.34.224:443 {created_time:"2025-04-15T17:40:02.1914061+00:00", grpc_status:8, grpc_message:"Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."}"
+>
+2025-04-15 23:40:02,244 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:40:02,249 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:40:02,249 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:40:02,652 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:104.18.34.224:443 {created_time:"2025-04-15T17:40:02.6011466+00:00", grpc_status:8, grpc_message:"Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."}"
+>
+2025-04-15 23:40:02,653 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:40:02,659 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:40:02,663 - stability_sdk.client - INFO - Sending request.
+2025-04-15 23:40:03,063 - ImageGeneration - ERROR - Stability API call failed: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance)."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:104.18.34.224:443 {grpc_message:"Your organization does not have enough balance to request this action (need $0.009, have $-0.008 in active grants, $0 in balance).", grpc_status:8, created_time:"2025-04-15T17:40:03.0109623+00:00"}"
+>
+2025-04-15 23:40:03,064 - ImageGeneration - INFO - Generating fallback image due to API failure
+2025-04-15 23:40:03,070 - ImageGeneration - INFO - Generated fallback error image
+2025-04-15 23:40:03,077 - ImageGeneration - INFO - Saved image to s:\mama\Backend\..\Data\generate_futuristic_city_with_neon_light_light_n-11.jpg
+2025-04-15 23:40:03,079 - ImageGeneration - INFO - Saved image to s:\mama\Backend\..\Data\generate_futuristic_city_with_neon_light_light_n-12.jpg
+2025-04-15 23:40:03,080 - ImageGeneration - INFO - Saved image to s:\mama\Backend\..\Data\generate_futuristic_city_with_neon_light_light_n-13.jpg
+2025-04-15 23:40:03,082 - ImageGeneration - INFO - Saved image to s:\mama\Backend\..\Data\generate_futuristic_city_with_neon_light_light_n-14.jpg
+2025-04-15 23:40:03,101 - ImageGeneration - INFO - Opening image: s:\mama\Backend\..\Data\generate_futuristic_city_with_neon_light_light_n-11.jpg
+2025-04-15 23:40:04,141 - ImageGeneration - INFO - Opening image: s:\mama\Backend\..\Data\generate_futuristic_city_with_neon_light_light_n-12.jpg
+2025-04-15 23:40:05,173 - ImageGeneration - INFO - Opening image: s:\mama\Backend\..\Data\generate_futuristic_city_with_neon_light_light_n-13.jpg
+2025-04-15 23:40:06,253 - ImageGeneration - INFO - Opening image: s:\mama\Backend\..\Data\generate_futuristic_city_with_neon_light_light_n-14.jpg
+2025-04-15 23:40:07,343 - ImageGeneration - INFO - Image generation completed successfully

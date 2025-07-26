@@ -1,0 +1,151 @@
+2025-04-09 13:10:53,246 - chatbot - ERROR - Unexpected error: name 'get_token_count' is not defined
+2025-04-09 13:11:05,901 - chatbot - ERROR - Unexpected error: name 'get_token_count' is not defined
+2025-04-09 22:09:43,170 - chatbot - INFO - Retrieved 5 search results for query: who is afusic
+2025-04-09 22:09:43,170 - chatbot - INFO - Sending request to Groq API for query: who is afusic
+2025-04-09 22:09:43,775 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 22:10:29,123 - chatbot - INFO - Retrieved 5 search results for query: who is char diwari
+2025-04-09 22:10:29,123 - chatbot - INFO - Sending request to Groq API for query: who is char diwari
+2025-04-09 22:10:29,520 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 22:16:46,624 - chatbot - INFO - Retrieved 5 search results for query: who is nandi
+2025-04-09 22:16:46,624 - chatbot - INFO - Sending request to Groq API for query: who is nandi
+2025-04-09 22:16:47,352 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 22:17:08,206 - chatbot - INFO - Retrieved 5 search results for query: who is kaushik sherestha
+2025-04-09 22:17:08,206 - chatbot - INFO - Sending request to Groq API for query: who is kaushik sherestha
+2025-04-09 22:17:08,990 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 22:18:08,472 - chatbot - INFO - Retrieved 5 search results for query: does he have any youtube channel\
+2025-04-09 22:18:08,473 - chatbot - INFO - Sending request to Groq API for query: does he have any youtube channel\
+2025-04-09 22:18:09,212 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 22:21:35,665 - chatbot - INFO - Retrieved 5 search results for query: who is kaushik shrestha
+2025-04-09 22:21:35,665 - chatbot - INFO - Sending request to Groq API for query: who is kaushik shrestha
+2025-04-09 22:21:38,280 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 22:22:05,717 - chatbot - INFO - Retrieved 5 search results for query: is he on youtube
+2025-04-09 22:22:05,717 - chatbot - INFO - Sending request to Groq API for query: is he on youtube
+2025-04-09 22:22:06,465 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 11:18:14,432 - chatbot - INFO - Retrieved 5 search results for query: who is manderin
+2025-04-10 11:18:14,433 - chatbot - INFO - Sending request to Groq API for query: who is manderin
+2025-04-10 11:18:15,161 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 11:19:08,058 - chatbot - INFO - Retrieved 5 search results for query: find me the insta account of the rock
+2025-04-10 11:19:08,058 - chatbot - INFO - Sending request to Groq API for query: find me the insta account of the rock
+2025-04-10 11:19:08,837 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 12:03:10,800 - chatbot - ERROR - Error fetching content from https://www.facebook.com/p/AFFAN-100064254511934/: 400 Client Error: Bad Request for url: https://www.facebook.com/p/AFFAN-100064254511934/
+2025-04-10 12:03:10,801 - chatbot - INFO - Retrieved 7 search results for query: who is afusic
+2025-04-10 12:03:10,802 - chatbot - INFO - Sending request to Groq API for query: who is afusic
+2025-04-10 12:03:11,283 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 12:04:45,584 - chatbot - INFO - Retrieved 7 search results for query: is he on youtube
+2025-04-10 12:04:45,585 - chatbot - INFO - Sending request to Groq API for query: is he on youtube
+2025-04-10 12:04:45,934 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 12:11:51,642 - chatbot - ERROR - Error fetching content from https://www.upwork.com/resources/what-is-c: 403 Client Error: Forbidden for url: https://www.upwork.com/resources/what-is-c
+2025-04-10 12:11:51,649 - chatbot - INFO - Retrieved 7 search results for query: what is c language
+2025-04-10 12:11:51,650 - chatbot - INFO - Sending request to Groq API for query: what is c language
+2025-04-10 12:11:52,041 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 12:12:51,674 - chatbot - ERROR - Error fetching content from /search?num=9: Invalid URL '/search?num=9': No scheme supplied. Perhaps you meant https:///search?num=9?
+2025-04-10 12:13:03,998 - chatbot - INFO - Retrieved 7 search results for query: compare it with pythone
+2025-04-10 12:13:03,998 - chatbot - INFO - Sending request to Groq API for query: compare it with pythone
+2025-04-10 12:13:04,335 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 12:20:02,545 - chatbot - ERROR - Error fetching content from https://magpiely.com.bd/collections/shower-gel-body-wash: 403 Client Error: Forbidden for url: https://magpiely.com.bd/collections/shower-gel-body-wash
+2025-04-10 12:20:03,934 - chatbot - ERROR - Error fetching content from http://ohsogo.com/collections/shower-gels-body-wash: 403 Client Error: Forbidden for url: https://www.ohsogo.com/collections/shower-gels-body-wash
+2025-04-10 12:20:05,941 - chatbot - ERROR - Error fetching content from https://www.paikaree.com.bd/body-wash-shop-in-bd?srsltid=AfmBOopu7pRa4qP9OA-gLrNFxrui43CO1LHktAjZPuVmneAg49jU8FNx: 403 Client Error: Forbidden for url: https://www.paikaree.com.bd/body-wash-shop-in-bd?srsltid=AfmBOopu7pRa4qP9OA-gLrNFxrui43CO1LHktAjZPuVmneAg49jU8FNx
+2025-04-10 12:20:05,942 - chatbot - INFO - Retrieved 7 search results for query: find me body wash soap to buy in bangladesh
+2025-04-10 12:20:05,942 - chatbot - INFO - Sending request to Groq API for query: find me body wash soap to buy in bangladesh
+2025-04-10 12:20:06,739 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 12:21:54,772 - chatbot - ERROR - Error fetching content from https://www.foodpanda.com.bd/groceries/product/026MYM/sepnil-antibacterial-soap-75g: 403 Client Error: Forbidden for url: https://www.foodpanda.com.bd/groceries/product/026MYM/sepnil-antibacterial-soap-75g
+2025-04-10 12:21:56,341 - chatbot - ERROR - Error fetching content from https://chaldal.com/sepnil-anti-bacterial-soap-bar-100-gm?srsltid=AfmBOorJV6mq6etd6y8VpFJr1SGiHkuBY9uYT2s54P_Jcpmvsl4gK_h7: 404 Client Error: Not Found for url: https://chaldal.com/sepnil-anti-bacterial-soap-bar-100-gm?srsltid=AfmBOorJV6mq6etd6y8VpFJr1SGiHkuBY9uYT2s54P_Jcpmvsl4gK_h7
+2025-04-10 12:22:01,617 - chatbot - ERROR - Error fetching content from https://osudpotro.com/gacotouch-antiseptic-soap: HTTPSConnectionPool(host='osudpotro.com', port=443): Read timed out. (read timeout=5)
+2025-04-10 12:22:09,108 - chatbot - INFO - Retrieved 7 search results for query: find me anti bacterial soap to buy from bangladesh
+2025-04-10 12:22:09,109 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-10 12:22:10,474 - chatbot - INFO - Sending request to Groq API for query: find me anti bacterial soap to buy from bangladesh
+2025-04-10 12:22:10,949 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 12:37:22,856 - chatbot - INFO - Retrieved 7 search results for query: find me best quality router from bangladesh
+2025-04-10 12:37:22,857 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-10 12:37:23,611 - chatbot - INFO - Sending request to Groq API for query: find me best quality router from bangladesh
+2025-04-10 12:37:24,296 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 12:38:43,112 - chatbot - ERROR - Error fetching content from https://m.facebook.com/story.php?story_fbid=1165350652043438&id=100057055436033: 400 Client Error: Bad Request for url: https://www.facebook.com/story.php?story_fbid=1165350652043438&id=100057055436033&_rdr
+2025-04-10 12:38:43,113 - chatbot - INFO - Retrieved 7 search results for query: within 3k taka only
+2025-04-10 12:38:43,114 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-10 12:38:43,114 - chatbot - INFO - Sending request to Groq API for query: within 3k taka only
+2025-04-10 12:38:43,387 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 12:39:12,981 - chatbot - ERROR - Error fetching content from https://ludwig.guru/s/which+one+works+best: 403 Client Error: Forbidden for url: https://ludwig.guru/s/which+one+works+best
+2025-04-10 12:39:13,925 - chatbot - ERROR - Error fetching content from https://brainly.in/question/23758516: 403 Client Error: Forbidden for url: https://brainly.in/question/23758516
+2025-04-10 12:39:13,926 - chatbot - INFO - Retrieved 7 search results for query: which one will be the best
+2025-04-10 12:39:13,926 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-10 12:39:15,447 - chatbot - INFO - Sending request to Groq API for query: which one will be the best
+2025-04-10 12:39:15,809 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 12:40:24,311 - chatbot - ERROR - Error fetching content from https://www.facebook.com/sabbirdrivingschool/: 400 Client Error: Bad Request for url: https://www.facebook.com/sabbirdrivingschool/
+2025-04-10 12:40:25,953 - chatbot - ERROR - Error fetching content from https://m.facebook.com/groups/737024734385806/posts/1326086472146293/: 400 Client Error: Bad Request for url: https://www.facebook.com/groups/737024734385806/posts/1326086472146293/?_rdr
+2025-04-10 12:40:26,995 - chatbot - INFO - Retrieved 7 search results for query: find me some driving learn courses in khilkhet, Dhaka
+2025-04-10 12:40:26,995 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-10 12:40:26,995 - chatbot - INFO - Sending request to Groq API for query: find me some driving learn courses in khilkhet, Dhaka
+2025-04-10 12:40:27,362 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 14:33:03,506 - chatbot - ERROR - Error fetching content from /search?num=9: Invalid URL '/search?num=9': No scheme supplied. Perhaps you meant https:///search?num=9?
+2025-04-10 14:33:09,179 - chatbot - INFO - Retrieved 7 search results for query: who is mausam
+2025-04-10 14:33:09,180 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-10 14:33:09,180 - chatbot - INFO - Sending request to Groq API for query: who is mausam
+2025-04-10 14:33:09,556 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 14:33:50,733 - chatbot - ERROR - Error fetching content from /search?num=9: Invalid URL '/search?num=9': No scheme supplied. Perhaps you meant https:///search?num=9?
+2025-04-10 14:34:06,555 - chatbot - ERROR - Error fetching content from https://www.news18.com/movies/sonam-kapoor-once-called-her-mausam-co-star-shahid-kapoor-biggest-bhondu-in-the-world-deets-inside-9067842.html: HTTPSConnectionPool(host='www.news18.com', port=443): Read timed out.
+2025-04-10 14:34:11,036 - chatbot - INFO - Retrieved 7 search results for query: i heared mausam is an actress
+2025-04-10 14:34:11,037 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-10 14:34:11,037 - chatbot - INFO - Sending request to Groq API for query: i heared mausam is an actress
+2025-04-10 14:34:11,327 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 14:34:38,250 - chatbot - ERROR - Error fetching content from https://sciendo.com/2/download/FDtslLiu6xxfIJ3hidG886XTiqq8BKMF4qkfT09p4x.pdf: 404 Client Error: Not Found for url: https://sciendo.com/2/download/FDtslLiu6xxfIJ3hidG886XTiqq8BKMF4qkfT09p4x.pdf
+2025-04-10 14:34:38,252 - chatbot - ERROR - Error fetching content from /search?q=%26+s:/mama/.venv/Scripts/python.exe+s:/mama/Backend/Chatbot.py&num=9&safe=active&sca_esv=7df6dcda83fa65f1&hl=en&ie=UTF-8&filter=0: No connection adapters were found for '/search?q=%26+s:/mama/.venv/Scripts/python.exe+s:/mama/Backend/Chatbot.py&num=9&safe=active&sca_esv=7df6dcda83fa65f1&hl=en&ie=UTF-8&filter=0'
+2025-04-10 14:34:38,253 - chatbot - ERROR - Error fetching content from : Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-04-10 14:34:38,254 - chatbot - ERROR - Error fetching content from : Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-04-10 14:34:38,255 - chatbot - ERROR - Error fetching content from : Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-04-10 14:34:38,256 - chatbot - ERROR - Error fetching content from : Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-04-10 14:34:38,256 - chatbot - INFO - Retrieved 7 search results for query: & s:/mama/.venv/Scripts/python.exe s:/mama/Backend/Chatbot.py
+2025-04-10 14:34:38,256 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-10 14:34:38,257 - chatbot - INFO - Sending request to Groq API for query: & s:/mama/.venv/Scripts/python.exe s:/mama/Backend/Chatbot.py
+2025-04-10 14:34:38,573 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 14:37:24,383 - chatbot - ERROR - Error fetching content from https://soundcloud.com/affan-khan-359885101: HTTPSConnectionPool(host='soundcloud.com', port=443): Read timed out.
+2025-04-10 14:37:25,691 - chatbot - ERROR - Error fetching content from https://www.facebook.com/p/AFFAN-100064254511934/: 400 Client Error: Bad Request for url: https://www.facebook.com/p/AFFAN-100064254511934/
+2025-04-10 14:37:25,692 - chatbot - INFO - Retrieved 7 search results for query: who is afusic
+2025-04-10 14:37:25,692 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-10 14:37:25,693 - chatbot - INFO - Sending request to Groq API for query: who is afusic
+2025-04-10 14:37:26,071 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 14:39:22,667 - chatbot - ERROR - Error fetching content from /search?num=9: Invalid URL '/search?num=9': No scheme supplied. Perhaps you meant https:///search?num=9?
+2025-04-10 14:39:27,181 - chatbot - INFO - Retrieved 7 search results for query: who is hamza
+2025-04-10 14:39:27,182 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-10 14:39:27,182 - chatbot - INFO - Sending request to Groq API for query: who is hamza
+2025-04-10 14:39:27,549 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 16:08:52,281 - chatbot - ERROR - Error fetching content from /search?num=9: Invalid URL '/search?num=9': No scheme supplied. Perhaps you meant https:///search?num=9?
+2025-04-13 16:08:54,765 - chatbot - ERROR - Error fetching content from https://www.facebook.com/@Lackcityconcord/: 400 Client Error: Bad Request for url: https://www.facebook.com/@Lackcityconcord/
+2025-04-13 16:09:17,464 - chatbot - INFO - Retrieved 7 search results for query: key mechanics in khilkhet
+2025-04-13 16:09:17,464 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-13 16:09:17,464 - chatbot - INFO - Sending request to Groq API for query: key mechanics in khilkhet
+2025-04-13 16:09:18,142 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 16:10:31,287 - chatbot - ERROR - Error fetching content from https://doorlockbd.com/contact/?srsltid=AfmBOoqivs-LLoOwQo9DxCH2w4PiG9j7jt27XcP4K5gAI5xAXpCvgCHN: HTTPSConnectionPool(host='doorlockbd.com', port=443): Max retries exceeded with url: /contact/?srsltid=AfmBOoqivs-LLoOwQo9DxCH2w4PiG9j7jt27XcP4K5gAI5xAXpCvgCHN (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002230E3E2D50>, 'Connection to doorlockbd.com timed out. (connect timeout=5)'))
+2025-04-13 16:10:32,528 - chatbot - ERROR - Error fetching content from https://www.facebook.com/100963641483152/posts/key-door-lock-repair-and-servicing%E0%A6%A6%E0%A6%B0%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%B2%E0%A6%95-%E0%A6%AE%E0%A7%87%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%A4-%E0%A6%93-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%82-%E0%A6%AA%E0%A7%87%E0%A6%A4%E0%A7%87-%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BF%E0%A6%95-%E0%A6%95%E0%A6%B0%E0%A7%81%E0%A6%A8www/189255945987254/: 400 Client Error: Bad Request for url: https://www.facebook.com/100963641483152/posts/key-door-lock-repair-and-servicing%E0%A6%A6%E0%A6%B0%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%B2%E0%A6%95-%E0%A6%AE%E0%A7%87%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%A4-%E0%A6%93-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%82-%E0%A6%AA%E0%A7%87%E0%A6%A4%E0%A7%87-%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BF%E0%A6%95-%E0%A6%95%E0%A6%B0%E0%A7%81%E0%A6%A8www/189255945987254/
+2025-04-13 16:10:36,703 - chatbot - ERROR - Error fetching content from https://m.facebook.com/story.php?story_fbid=670374788652798&id=100070408475935: 400 Client Error: Bad Request for url: https://www.facebook.com/story.php?story_fbid=670374788652798&id=100070408475935&_rdr
+2025-04-13 16:10:36,704 - chatbot - INFO - Retrieved 7 search results for query: door lock mechanics in khilkhet, dhaka.
+2025-04-13 16:10:36,705 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-13 16:10:36,705 - chatbot - INFO - Sending request to Groq API for query: door lock mechanics in khilkhet, dhaka.
+2025-04-13 16:10:37,047 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 16:10:57,390 - chatbot - ERROR - Error fetching content from /search?num=9: Invalid URL '/search?num=9': No scheme supplied. Perhaps you meant https:///search?num=9?
+2025-04-13 16:10:57,731 - chatbot - ERROR - Error fetching content from https://www.facebook.com/OrhanExprss/: 400 Client Error: Bad Request for url: https://www.facebook.com/OrhanExprss/
+2025-04-13 16:10:58,083 - chatbot - ERROR - Error fetching content from https://www.facebook.com/p/Dhaka-locksmith-100069322192030/: 400 Client Error: Bad Request for url: https://www.facebook.com/p/Dhaka-locksmith-100069322192030/
+2025-04-13 16:11:05,371 - chatbot - INFO - Retrieved 7 search results for query: losksmith in khilkhet, dhaka
+2025-04-13 16:11:05,372 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-13 16:11:05,372 - chatbot - INFO - Sending request to Groq API for query: losksmith in khilkhet, dhaka
+2025-04-13 16:11:06,232 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 23:23:24,971 - chatbot - ERROR - Error fetching content from https://www.facebook.com/sabbirdrivingschool/: 400 Client Error: Bad Request for url: https://www.facebook.com/sabbirdrivingschool/
+2025-04-13 23:23:26,411 - chatbot - ERROR - Error fetching content from https://www.facebook.com/groups/khilkhetpeoples/posts/1065430111969046/: 400 Client Error: Bad Request for url: https://www.facebook.com/groups/khilkhetpeoples/posts/1065430111969046/
+2025-04-13 23:23:33,269 - chatbot - ERROR - Error fetching content from https://www.facebook.com/61550220866215/videos/khilkhet-driving-school/272209375977543/: 400 Client Error: Bad Request for url: https://www.facebook.com/reel/272209375977543/
+2025-04-13 23:23:33,270 - chatbot - INFO - Retrieved 7 search results for query: car driving courses in khilkhet, dhaka
+2025-04-13 23:23:33,270 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-13 23:23:33,271 - chatbot - INFO - Sending request to Groq API for query: car driving courses in khilkhet, dhaka
+2025-04-13 23:23:34,100 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 23:24:53,393 - chatbot - ERROR - Error fetching content from https://www.facebook.com/WillSmith/: 400 Client Error: Bad Request for url: https://www.facebook.com/WillSmith/
+2025-04-13 23:24:54,364 - chatbot - INFO - Retrieved 7 search results for query: who is will smith
+2025-04-13 23:24:54,365 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-13 23:24:54,365 - chatbot - INFO - Sending request to Groq API for query: who is will smith
+2025-04-13 23:24:54,686 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 23:25:20,897 - chatbot - INFO - Retrieved 7 search results for query: who is hitler
+2025-04-13 23:25:20,897 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-13 23:25:20,897 - chatbot - INFO - Sending request to Groq API for query: who is hitler
+2025-04-13 23:25:21,242 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-14 09:38:53,531 - chatbot - ERROR - Error fetching content from /search?num=9: Invalid URL '/search?num=9': No scheme supplied. Perhaps you meant https:///search?num=9?
+2025-04-14 09:38:59,396 - chatbot - INFO - Retrieved 7 search results for query: write me ten most complicated website names that existis on internet
+2025-04-14 09:38:59,397 - chatbot - WARNING - YouTube API key not found. Skipping YouTube search.
+2025-04-14 09:38:59,397 - chatbot - INFO - Sending request to Groq API for query: write me ten most complicated website names that existis on internet
+2025-04-14 09:39:00,359 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

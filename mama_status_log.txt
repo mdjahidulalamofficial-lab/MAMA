@@ -1,0 +1,2 @@
+[Mon Apr 14 23:45:51 2025] CPU: 0.0%, RAM: 74.1%, Battery: 100%, Plugged In: True
+[Mon Apr 14 23:52:52 2025] CPU: 0.0%, RAM: 72.0%, Battery: 100%, Plugged In: True

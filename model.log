@@ -1,0 +1,15 @@
+2025-04-15 16:19:01,445 - Model - INFO - User input: what is the weather today?
+2025-04-15 16:19:01,446 - Model - INFO - Processing query: what is the weather today?
+2025-04-15 16:19:01,487 - Model - INFO - Sentiment analysis for 'what is the weather today?...': 0.0
+2025-04-15 16:19:01,488 - Model - INFO - Query categorized as REALTIME: 'what is the weather today?...'
+2025-04-15 16:19:02,189 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-04-15 16:19:14,109 - Model - INFO - User input: open notepad
+2025-04-15 16:19:14,110 - Model - INFO - Processing query: open notepad
+2025-04-15 16:19:14,110 - Model - INFO - Sentiment analysis for 'open notepad...': 0.0
+2025-04-15 16:19:14,111 - Model - INFO - Query categorized as AUTOMATION: 'open notepad...'
+2025-04-15 16:19:14,635 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-04-15 16:19:26,065 - Model - INFO - User input: tell me a joke
+2025-04-15 16:19:26,066 - Model - INFO - Processing query: tell me a joke
+2025-04-15 16:19:26,066 - Model - INFO - Sentiment analysis for 'tell me a joke...': 0.0
+2025-04-15 16:19:26,067 - Model - INFO - Query categorized as GENERAL: 'tell me a joke...'
+2025-04-15 16:19:26,582 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
